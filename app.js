@@ -113,3 +113,5 @@ app.get('/getData', async (req, res) => {
     console.log(error)
   }
 })
+
+module.exports=app
